@@ -1,4 +1,4 @@
-class Students < ActiveRecord::Base
+class Student < ActiveRecord::Base
 
   def self.to_s
     return self.first_name + self.last_name
